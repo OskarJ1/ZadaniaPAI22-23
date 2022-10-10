@@ -58,10 +58,10 @@
 	
         <label for="zwierze">Zwierze:</label>
 		<select id="zwierze" name="zwierze">
-			<option selected disabled>--Wybierz zwierze--</option>
-			<option>Owca</option>
-			<option>Koń</option>
-			<option>Krowa</option>
+			<option selected disabled>Wybierz ulubione zwierze</option>
+			<option>Pies</option>
+			<option>Kot</option>
+			<option>KubaDuba</option>
 		</select>
 
 
@@ -78,13 +78,13 @@
         
 
 		<p style="margin-bottom: 0px;">Hodowca</p>
-		<input type="checkbox" name="hodowca" value="Jan">
+		<input type="checkbox" name="hodowca" value="Oskar">
 		<label>Oskar</label>
 
-		<input type="checkbox" name="hodowca" value="Stefan">
+		<input type="checkbox" name="hodowca" value="Borys">
 		<label>Borys</label>
 
-		<input type="checkbox" name="hodowca" value="Blair">
+		<input type="checkbox" name="hodowca" value="Mateusz">
 		<label>Mateusz</label></br>
 
 		<button type="submit" name="hodowla">Wpisz dane</button>
@@ -128,7 +128,7 @@ function ankieta() {
     $hodowca = $_POST['hodowca'];
 
 
-    echo "</br>Jesteś: ".$zwierze.".</br>Twoja płeć to: ".$plec.".</br>Twój hodowca to: ".$hodowca;
+    echo "</br>Twoje ulubione zwierze to: ".$zwierze.".</br>Twoja płeć to: ".$plec.".</br>Twój hodowca to: ".$hodowca;
 
 }
 ?>
